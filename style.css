@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background: #f1f1f1;
+    font-size: 16px;
+    line-height: 22px;
+    color: #404040;
+    font-family: 'Lucida Grande', Verdana, sans-serif;
+  }
+  
+.container{
+    width: 100%;    
+}
+h1 {
+    font-size: 52px;
+    line-height: 52px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -0.8px; 
+}
+header {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+
+input{
+    padding: 4px 10px 4px;
+    font-size: 16px;
+    font-family: 'Lucida Grande', Verdana, sans-serif;
+    line-height: 20px;
+    border: solid 1px #dddddd;
+    border-radius: 5px;
+}
+button{
+    background: lightseagreen;
+    color: #fff;
+    padding: 3px 10px;
+    margin: 0 0 0 3px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 24px;
+    cursor: pointer;
+    vertical-align: bottom;
+
+}
+button:hover {
+    background-color: lightslategrey;
+  }
+#todoList{
+    list-style: none;
+    padding:0 10px;
+    
+}
+#todoList li{
+    color: darkred;
+    cursor: pointer;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+}
+#todoList li:nth-child(odd) {
+    background: #f9f9f9;
+}
+#todoList li:hover {
+    background: #ddd;
+  }
+#todoList li.done{
+    text-decoration: line-through;
+    background: #888;
+    color: #fff;
+}
+
+#todoList li button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 10px;
+}
